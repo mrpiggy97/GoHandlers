@@ -7,7 +7,7 @@ import (
 )
 
 func HomeHandler(response http.ResponseWriter, req *http.Request) {
-	var message string = "this is the first version"
+	var message string = "this is the second version"
 	fmt.Fprintf(response, "%q", html.EscapeString(message))
 }
 
