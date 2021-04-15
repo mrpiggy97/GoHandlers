@@ -12,6 +12,6 @@ func HomeHandler(response http.ResponseWriter, req *http.Request) {
 }
 
 func Serve() {
-	fmt.Println("listengin at port 8080")
+	fmt.Println("listening at port 8080")
 	http.ListenAndServe("localhost:8080", nil)
 }
