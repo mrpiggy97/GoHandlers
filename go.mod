@@ -1,3 +1,3 @@
-module github.com/mrpiggy97/GoHandlers/v2
+module github.com/mrpiggy97/GoHandlers
 
 go 1.16

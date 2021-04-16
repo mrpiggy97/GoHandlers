@@ -7,7 +7,7 @@ import (
 )
 
 func HomeHandler(response http.ResponseWriter, req *http.Request) {
-	var message string = "this is supposed to be the mayor version 2"
+	var message string = "this is supposed to be the mayor version 1.13.9 version"
 	fmt.Fprintf(response, "%q", html.EscapeString(message))
 }
 
